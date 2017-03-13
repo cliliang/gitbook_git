@@ -21,6 +21,7 @@ M  lib/simplegit.rb
 
 ##重命名
 重命名文件名，如果直接更改，查看状态后完成此次重命名操作，相当于
+
 ```
 $ mv README.md README
 $ git rm README.md
