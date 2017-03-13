@@ -27,3 +27,5 @@ $ mv README.md README
 $ git rm README.md
 $ git add README
 ```
+用git命令重命名只需要一步
+`$ git mv file_from file_to`
