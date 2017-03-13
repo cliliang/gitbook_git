@@ -18,3 +18,11 @@ M  lib/simplegit.rb
 1.对于已经存在于暂存区域的文件，如果只是简单的手动删除文件，这时检查状态时`deleted:    PROJECTS.md`，需要再用`git rm`记录此次删除文件的操作。
 2.对于已经存在于暂存区域的文件，需要用`git rm -f RD.txt`,记录此次删除记录并自动在硬盘中删除文件。
 3.对于已经存在于暂存区域的文件，如果只是删除对于此文件的跟踪，保留在硬盘上的文件，则需要使用`git rm --cached RD.txt`。
+
+##重命名
+重命名文件名，如果直接更改，查看状态后完成此次重命名操作，相当于
+```
+$ mv README.md README
+$ git rm README.md
+$ git add README
+```
