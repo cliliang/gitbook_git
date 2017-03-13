@@ -1,3 +1,2 @@
-# My Awesome Book
+[git完整中文文档](http://www.kancloud.cn/kancloud/progit/70158)
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
