@@ -24,4 +24,14 @@ Changes to be committed:
 ```
 这时使用`$ git reset HEAD README.md` 命令即可将README.md文件从暂存区中移出。
 
+##撤消对文件的修改
+文件已经修改，但是并不想保留时，想重新回到未修改时的样子，可以使用以下命令
+```
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  modified:   CONTRIBUTING.md
+```
+
+
 
