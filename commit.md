@@ -32,6 +32,11 @@ Changes not staged for commit:
   (use "git checkout -- <file>..." to discard changes in working directory)
   modified:   CONTRIBUTING.md
 ```
+像上面提示的那样`git checkout -- CONTRIBUTING.md`，这样，被修改的文件就能够回到修改前的样子。
+
+
+
+
 
 
 
